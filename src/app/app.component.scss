@@ -1,0 +1,31 @@
+
+/* Estilos para el componente del contenido */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  app-app-toolbar {
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    flex: 0 0 auto; /* Altura fija en la parte superior */
+  }
+  
+  .app-container {
+    display: flex;
+    flex: 1; /* Ocupa todo el espacio vertical restante */
+  }
+  
+  app-app-navbar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    flex: 0 0 250px; /* Ancho fijo en la izquierda */
+    overflow-y: auto; /* Agrega desplazamiento vertical si es necesario */
+  }
+  
+  app-app-students {
+    /* Estilos para el contenido específico de app-app-students si es necesario */
+    flex: 1; /* Ocupa todo el espacio vertical restante */
+  }
